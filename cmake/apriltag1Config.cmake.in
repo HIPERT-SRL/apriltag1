@@ -1,0 +1,8 @@
+set(apriltag1_VERSION @PROJECT_VERSION@)
+
+@PACKAGE_INIT@
+
+set_and_check(apriltag1_INCLUDE_DIRS "@PACKAGE_apriltag1_INCLUDE_DIRS@")
+set_and_check(apriltag1_LIBRARIES "@PACKAGE_apriltag1_LIBRARIES@")
+
+check_required_components(apriltag1)
