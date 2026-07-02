@@ -5,6 +5,7 @@
 #include <apriltag1/Eigen.h>
 
 #include <opencv2/opencv.hpp>
+#include <opencv2/geometry.hpp>
 
 #include "apriltag1/Homography33.h"
 
